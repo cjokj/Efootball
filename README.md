@@ -43,3 +43,37 @@
 </body>
 </html>
 # Efootball
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Tournament</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Football Tournament</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Teams</a></li>
+                <li><a href="#">Fixtures</a></li>
+                <li><a href="#">Results</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="intro">
+        <h2>Welcome to the Football Tournament</h2>
+        <p>Get ready for an exciting football competition among the school teams!</p>
+    </section>
+
+    <section id="teams">
+        <h2>Teams</h2>
+        <div class="team" id="team1">
+            <h3>Team 1</h3>
+            <button class="view-info">View Info</button>
+        </div>
+        <div clas
